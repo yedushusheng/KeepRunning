@@ -1,13 +1,26 @@
-<!--index.wxml-->
-<view class="container">
-  <view class="userinfo">
-    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
-    <block wx:else>
-      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
-      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-    </block>
-  </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
-  </view>
+
+
+
+<view clas="mainView">
+    <!--标题-->
+
+    <view class="header">
+        <image class="icon" src="/resources/joyrun.png" mode="aspectFill"/>
+        <view class="bigTitle">KeepRunning</view>
+        <view class="desc">Let us run - Alan Wang</view>
+    </view>
+    
+    
+    
+    <view class="body">
+        <view class="widget">
+            <block wx:for="{{pageNames}}">
+                <view class="widgets__item">
+                    <navigator url="{{item.id}}/{{item.id}}">{{item.name}}</navigator>
+                </view>
+            </block>
+        </view>
+    </view>
+
 </view>
+    
