@@ -5,9 +5,9 @@
     <!--标题-->
 
     <view class="header">
-        <image class="icon" src="/resources/joyrun.png" mode="aspectFill"/>
+        <image class="icon" src="/resources/keeprunning.png" mode="aspectFill"/>
         <view class="bigTitle">KeepRunning</view>
-        <view class="desc">Let us run - Alan Wang</view>
+        <view class="desc">On the way--yedushusheng</view>
     </view>
     
     
