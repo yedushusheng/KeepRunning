@@ -1,0 +1,21 @@
+<view class="head" style="flex-direction:row;">
+    <image class="icon" src="/resources/mainview.png" mode="aspectFill"/>
+    <button bindtap="openLocation">Location</button>
+    <button bindtap="starRun">Start</button>
+    <button bindtap="stopRun">Pause</button>
+    <text>\nTotal miles：{{meters}}km</text>
+    <text>\n\nTime：{{time}}</text>
+</view>
+
+<view class="mainView">
+   <map
+        class="mapView"
+        style="width: 100%; height: 375px;"
+        latitude="{{latitude}}"
+        longitude="{{longitude}}"
+        markers="{{markers}}"
+        covers="{{covers}}"
+        >
+    </map>
+
+</view>
