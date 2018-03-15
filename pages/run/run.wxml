@@ -1,10 +1,12 @@
+
+
 <view class="head" style="flex-direction:row;">
-    <image class="icon" src="/resources/mainview.png" mode="aspectFill"/>
-    <button bindtap="openLocation">Location</button>
-    <button bindtap="starRun">Start</button>
-    <button bindtap="stopRun">Pause</button>
-    <text>\nTotal miles：{{meters}}km</text>
-    <text>\n\nTime：{{time}}</text>
+    <image class="icon" src="/resources/joyrun.png" mode="aspectFill"/>
+    <button bindtap="openLocation">打开位置</button>
+    <button bindtap="starRun">开始跑步</button>
+    <button bindtap="stopRun">暂停跑步</button>
+    <text>\n里程数：{{meters}}km</text>
+    <text>\n\n时间：{{time}}</text>
 </view>
 
 <view class="mainView">
@@ -19,3 +21,4 @@
     </map>
 
 </view>
+
