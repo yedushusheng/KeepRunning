@@ -1,12 +1,12 @@
 Page({
-  data:{
-    pageNames:[
+  data: {
+    pageNames: [
       {
-        id:'animation',
-        name:'Animation',
-      },{
-        id:'run',
-        name:'Run',
+        id: 'animation',
+        name: '动画',
+      }, {
+        id: 'run',
+        name: '跑步',
       }
     ]
   },
