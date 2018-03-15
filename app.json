@@ -1,14 +1,14 @@
 {
-  "pages":[
-    "pages/index/index",
+  "pages": [
+    "pages/index",
     "pages/logs/logs",
-    "pages/animation/animation",
-    "pages/run/run"
+    "pages/run/run",
+    "pages/animation/animation"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "KeepRunning",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle": "black"
   }
 }
