@@ -5,7 +5,7 @@
     <!--标题-->
 
     <view class="header">
-        <image class="icon" src="/resources/joyrun.png" mode="aspectFill"/>
+        <image class="icon" src="/resources/running.png" mode="aspectFill"/>
         <view class="bigTitle">KeepRunning</view>
         <view class="desc">Just run - yedushusheng</view>
     </view>
