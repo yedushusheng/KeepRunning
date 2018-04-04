@@ -124,7 +124,7 @@
   margin: 25rpx;
 }
 .page-body-button image {
-  width: 150rpx;
+  width: 100rpx;
   height: 150rpx;
 }
 .page-footer {
