@@ -3,7 +3,7 @@ Page({
     pageNames: [
       {
         id: 'run',
-        name: '小仙女要跑步',
+        name: '开始跑步',
       }
     ]
   },
