@@ -1,7 +1,7 @@
 
 
 <view class="head" style="flex-direction:row;">
-    <image class="icon" src="/resources/joyrun.png" mode="aspectFill"/>
+    <image class="icon" src="/resources/running.png" mode="aspectFill"/>
     <button bindtap="openLocation">定位</button>
     <button bindtap="starRun">跑步</button>
     <button bindtap="stopRun">暂停</button>
