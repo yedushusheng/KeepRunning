@@ -1,4 +1,6 @@
-
+.icon{
+  align-self: middle;
+}
 
 .mapView{
   align-items: center;
