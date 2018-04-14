@@ -7,7 +7,7 @@
     <view class="header">
         <image class="icon" src="/resources/running.png" mode="aspectFill"/>
         <view class="bigTitle">KeepRunning</view>
-        <view class="desc">Just run - yedushusheng</view>
+        <view class="desc">悦跑悦快乐 - yedushusheng</view>
     </view>
     
     
