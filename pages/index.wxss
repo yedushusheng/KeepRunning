@@ -10,9 +10,9 @@
     line-height: 1;
 }
 .icon{
-    width: 80rpx;
+    width: 50rpx;
     height: 80rpx;
-    padding: 30;
+    padding: 25;
     margin-top: 20;
     margin-bottom:20; 
 }
