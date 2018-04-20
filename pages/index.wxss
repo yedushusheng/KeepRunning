@@ -29,7 +29,7 @@
     position: center;
 }
 .title{
-    font-size: 52rpx;
+    font-size: 55rpx;
 }
 .desc{
     margin-top: 10rpx;
